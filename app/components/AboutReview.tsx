@@ -5,7 +5,7 @@ const AboutReview = () => {
     <div className="about-container about-review">
       <div className="about-box">
         <div className="image">
-          <img src="/public/images/profile.jpg" alt="no-image" />
+          <img src="/images/profile.jpg" alt="no-image" />
         </div>
         <div className="box-text">
           <h2>hey,i'm Alex </h2>
