@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <>
       <div className="hero">
-        <h2>hello i am {name}</h2>
+        <h2>🚀 hello i am {name}</h2>
         <p>{text}</p>
         <div className="buttons">
           <Link to="/projects">view projects</Link>

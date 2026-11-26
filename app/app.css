@@ -15,7 +15,6 @@ body {
     color-scheme: dark;
   }
   background-color: rgb(1, 1, 44);
-  color: #fff;
 }
 
 /*Start NavBar*/
@@ -116,6 +115,12 @@ nav {
   margin: 20px auto;
   border-radius: 8px;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    width: 100%;
+  }
 }
 
 .hero > h2 {

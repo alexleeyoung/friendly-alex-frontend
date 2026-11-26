@@ -15,7 +15,7 @@ const LatestPosts = ({ posts, limit = 3 }: LatestPosts) => {
 
   return (
     <section className="latest-p-container">
-      <h2>latest blogs</h2>
+      <h2>✍ latest blogs</h2>
       <div className="latest-p-grid">
         {latest.map((post) => (
           <Link to={`/blog/${post.slug}`} key={post.slug}>

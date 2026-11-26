@@ -10,7 +10,7 @@ const Featured = ({ projects, count = 2 }: MyProject) => {
   if (projects.length == 0 || count === 0) return null;
   return (
     <>
-      <h2 className="featured-title">our Features</h2>
+      <h2 className="featured-title"> 🤩 our Features</h2>
       <div className="featured-container projects-grid ">
         {projects
           .map((project) => (
