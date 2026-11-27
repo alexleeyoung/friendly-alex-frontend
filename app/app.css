@@ -14,7 +14,7 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
-  background-color: rgb(1, 1, 44);
+  background-color: #0f172a;
 }
 
 /*Start NavBar*/
@@ -23,7 +23,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
 }
 
 .laptop-logo {
@@ -57,7 +57,7 @@ nav {
 }
 
 .nav-desktop > a.active {
-  color: rgb(1, 1, 44);
+  color: #0f172a;
   transition: 0.3s;
 }
 
@@ -96,7 +96,7 @@ nav {
   color: #fff;
 }
 .nav-toggle > a:hover {
-  color: rgb(22, 22, 167);
+  color: #2563eb;
 }
 @media (min-width: 1000px) {
   .nav-toggle {
@@ -109,7 +109,7 @@ nav {
 
 .hero {
   padding: 80px 20px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   width: 80%;
   margin: 20px auto;
@@ -153,23 +153,23 @@ nav {
 }
 
 .hero .buttons a:first-of-type {
-  background-color: rgb(1, 1, 44);
+  background-color: #0f172a;
   color: #fff;
   border-color: #fff;
 }
 
 .hero .buttons a:nth-of-type(2) {
   background-color: #fff;
-  color: rgb(1, 1, 44);
-  border-color: rgb(1, 1, 44);
+  color: #0f172a;
+  border-color: #0f172a;
 }
 .hero .buttons a:nth-of-type(2):hover {
-  background-color: rgb(1, 1, 44);
-  color: rgb(22, 22, 167);
+  background-color: #0f172a;
+  color: #2563eb;
   border-color: #fff;
 }
 .hero .buttons a:first-of-type:hover {
-  color: rgb(22, 22, 167);
+  color: #2563eb;
 }
 
 /*End Hero */
@@ -192,7 +192,7 @@ nav {
 }
 
 .projects-grid .projects-box {
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   border-radius: 8px;
 }
 .projects-grid .projects-box > h2 {
@@ -252,7 +252,7 @@ nav {
 }
 .filter-project button {
   padding: 8px 12px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   margin-left: 8px;
   cursor: pointer;
   text-transform: capitalize;
@@ -262,8 +262,8 @@ nav {
 
 .filter-project button.category-btn-active {
   background-color: #fff;
-  color: rgb(22, 22, 167);
-  border-color: rgb(22, 22, 167);
+  color: #2563eb;
+  border-color: #2563eb;
 }
 /* project pagination*/
 
@@ -301,7 +301,7 @@ nav {
 }
 
 .project-details-container .box > h2 {
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 10px;
@@ -317,7 +317,7 @@ nav {
   margin-bottom: 10px;
 }
 .project-details-container .box > p + a {
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   display: inline-block;
   padding: 8px 16px;
   border-radius: 8px;
@@ -325,9 +325,9 @@ nav {
   transition: 0.2s;
 }
 .project-details-container .box > p + a:hover {
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   background-color: #fff;
-  border-color: rgb(22, 22, 167);
+  border-color: #2563eb;
 }
 /* End Project Details */
 
@@ -342,7 +342,7 @@ nav {
 .pagination-flex > button {
   padding: 10px 12px;
   margin-left: 8px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   border: 1px solid black;
   border-radius: 8px;
   cursor: pointer;
@@ -350,12 +350,12 @@ nav {
 }
 .pagination-flex > button.pagination-active {
   background-color: white;
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   border-color: #fff;
 }
 .pagination-flex > button:hover {
   background-color: white;
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   border-color: #fff;
 }
 
@@ -364,7 +364,7 @@ nav {
 /* Start About */
 .about-container {
   padding: 12px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   padding: 80px 20px;
@@ -383,7 +383,7 @@ nav {
   width: 150px;
   height: 150px;
 
-  border: 4px solid rgb(1, 1, 44);
+  border: 4px solid #0f172a;
   border-radius: 50%;
 }
 
@@ -430,7 +430,7 @@ nav {
 }
 
 .about-review a {
-  color: rgb(1, 1, 70);
+  color: #0f172a;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -460,7 +460,7 @@ nav {
 }
 .about-container .tech-flex li {
   padding: 10px;
-  background-color: rgb(1, 1, 44);
+  background-color: #0f172a;
   border-radius: 8px;
   text-transform: capitalize;
   font-size: 0.9rem;
@@ -472,7 +472,7 @@ nav {
 .container-contact {
   margin: 30px auto;
   width: 70%;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   padding: 60px 20px;
@@ -503,7 +503,7 @@ nav {
 
 .container-contact .contact-box input,
 .container-contact .contact-box textarea {
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
   display: block;
   width: 100%;
   padding: 6px;
@@ -514,7 +514,7 @@ nav {
   display: block;
   width: 100%;
   padding: 7px;
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
   font-size: 1.2rem;
   border-radius: 8px;
   border: 2px solid transparent;
@@ -525,8 +525,8 @@ nav {
 
 .send-message:hover {
   background-color: #fff;
-  color: rgb(1, 1, 70);
-  border-color: rgb(1, 1, 70);
+  color: #0f172a;
+  border-color: #0f172a;
 }
 
 .contact-message {
@@ -561,7 +561,7 @@ nav {
 }
 .not-found-container h1 {
   font-size: 4rem;
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   font-weight: bold;
 }
 .not-found-container h2 {
@@ -579,15 +579,15 @@ nav {
   display: inline-block;
   padding: 8px 12px;
   border-radius: 8px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   text-transform: capitalize;
   transition: 0.3s;
   border: 2px solid transparent;
 }
 .not-found-container a:hover {
   background-color: #fff;
-  color: rgb(22, 22, 167);
-  border-color: rgb(22, 22, 167);
+  color: #2563eb;
+  border-color: #2563eb;
 }
 /*End Not-found */
 
@@ -596,7 +596,7 @@ nav {
   width: 70%;
   margin: 20px auto;
   padding: 60px 20px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -614,7 +614,7 @@ nav {
 }
 
 .container-blogs article {
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
   padding: 8px;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -622,7 +622,7 @@ nav {
 .container-blogs article > h3 {
   font-size: 1.4rem;
   font-weight: bold;
-  color: rgb(22, 22, 167);
+  color: #2563eb;
   text-transform: capitalize;
 }
 
@@ -645,7 +645,7 @@ nav {
   display: inline-block;
   padding: 6px 12px;
   color: #fff;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   border: 2px solid transparent;
   cursor: pointer;
   transition: 0.3s;
@@ -654,8 +654,8 @@ nav {
   margin: 12px 0px;
 }
 .container-blogs article > h3 + p + p + a:hover {
-  border-color: rgb(22, 22, 167);
-  color: rgb(22, 22, 167);
+  border-color: #2563eb;
+  color: #2563eb;
   background-color: #fff;
 }
 /* End Blog */
@@ -666,7 +666,7 @@ nav {
   width: 70%;
   margin: 20px auto;
   padding: 60px 20px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -697,7 +697,7 @@ nav {
   display: inline-block;
   padding: 6px 20px;
   color: #fff;
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
   border: 2px solid transparent;
   cursor: pointer;
   transition: 0.3s;
@@ -707,8 +707,8 @@ nav {
   text-decoration: none;
 }
 .blog-d-container > a:hover {
-  border-color: rgb(1, 1, 70);
-  color: rgb(1, 1, 70);
+  border-color: #0f172a;
+  color: #0f172a;
   background-color: #fff;
 }
 
@@ -723,10 +723,10 @@ nav {
 .post-filter-container > input {
   display: block;
   width: 100%;
-  border: 2px solid rgb(1, 1, 70);
+  border: 2px solid #0f172a;
   padding: 6px 12px;
   border-radius: 8px;
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
 }
 .post-filter-container > input:focus {
   outline: none;
@@ -749,7 +749,7 @@ nav {
   width: 70%;
   margin: 20px auto;
   padding: 60px 20px;
-  background-color: rgb(22, 22, 167);
+  background-color: #2563eb;
   color: #fff;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -773,7 +773,7 @@ nav {
   grid-gap: 20px;
 }
 .latest-p-grid > a {
-  background-color: rgb(1, 1, 70);
+  background-color: #0f172a;
   padding: 12px 12px 22px;
   border-radius: 8px;
   position: relative;

@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 const Hero: React.FC<HeroProps> = ({
   name = "Alex",
-  text = "i help people to make thier website and teach them very well",
+  text = "I build professional websites, teach you how everything works, and bring your ideas to life with high-quality results at affordable prices.",
 }) => {
   return (
     <>

@@ -9,7 +9,7 @@ const NavBar = () => {
       <nav>
         <NavLink to="/">
           <FaLaptopCode className="laptop-logo" />
-          <span>The friendly Alex</span>
+          <span>Alex Web Studio</span>
         </NavLink>
         <div className="nav-desktop">
           <NavLink

@@ -71,7 +71,7 @@ const Home = ({ loaderData }: Route.ComponentProps) => {
   return (
     <>
       <div className="container-home">
-        <Hero name={"young"} />
+        <Hero name={"Alex"} />
         <Featured projects={projects} count={2} />
         <AboutReview />
         <LatestPosts posts={posts} />
