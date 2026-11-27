@@ -72,7 +72,7 @@ const Home = ({ loaderData }: Route.ComponentProps) => {
     <>
       <div className="container-home">
         <Hero name={"Alex"} />
-        <Featured projects={projects} count={2} />
+        <Featured projects={projects} count={4} />
         <AboutReview />
         <LatestPosts posts={posts} />
       </div>
